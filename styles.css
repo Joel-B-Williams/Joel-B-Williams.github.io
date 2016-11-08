@@ -91,8 +91,29 @@ table * {
 	margin-top: 0px;
 }
 
+aside {
+	width: 300px;
+	float: right;
+	font-style: italic;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 footer {
 	background-color: gray;
 	width: 50px;
   text-align: center;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: white;
 }
