@@ -71,7 +71,7 @@ table * {
 
 #nav-section {
 	height: 100px;
-	width: 100px;
+	width: 90px;
 	background-color: gray;
 	border-radius: 15px;
 	position: fixed;
@@ -82,7 +82,7 @@ table * {
 }
 
 #nav-message {
-	width: 62px;
+	width: 65px;
 	padding-left: 10px;
 	margin-left: 0px;
 	margin-top: 0px;
