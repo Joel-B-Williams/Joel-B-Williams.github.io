@@ -4,13 +4,55 @@ body {
 	background-size: cover;
 }
 
+h1, h2 {
+	background-color: #ffffe6;
+	border-radius: 25px;
+	margin-left: 25px;
+	padding-left: 25px;
+	width: 40%;
+}
 
-table * {
-	border: solid black 1px;
+p {
+	background-color: #ffffe6;
+	border-radius: 15px;
+	margin-left: 35px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 30%;
 }
 
 table {
 	background-color: #ffffe6;
 	border: solid black 3px;
 	padding: 2px;
+	font-family: "helvetica"
+	position: relative;
+	margin-left: 58px;
+}
+
+table * {
+	border: solid black 1px;
+}
+
+.col-name {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#table-name {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#zombie-pic {
+	display: block;
+	margin: 25px auto 0;
+	width 50%;
+}
+
+#z-p-credit {
+	display: block;
+	margin: auto;
+	width: 150px;
+	text-align: center;
 }

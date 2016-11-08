@@ -5,29 +5,31 @@
 	<title>Zombie Home</title>
 </head>
 <body>
-	<img src="Amazon-Zombies-1200x801.jpg" alt="zombies">
-		<p>photo credit: AMC</p>
+	<div>
+		<img id="zombie-pic" src="Amazon-Zombies-1200x801.jpg" alt="zombies">
+	</div>
+		<p id="z-p-credit">photo credit: AMC</p>
 	<h1>How to outlive zombies</h1>
 		<p>This page is about proper zombie survival techniques.  I will outline the fundamentals of success for this emergency scenario.</p>
-
-		<p id="nav-message">Please direct yourself to the appropriate page for each topic.</p>
-	<nav>
-		<a href="hideout.html">Holing Up</a>
-		<a href="combat.html">Combatting Zombies</a>
-	</nav>	
-
+	<section>
+			<p id="nav-message">Please direct yourself to the appropriate page for each topic.</p>
+		<nav>
+			<a href="hideout.html">Holing Up</a>
+			<a href="combat.html">Combatting Zombies</a>
+		</nav>	
+	</section>
 	<section id="threat">
 		<h2>Evaluating threat levels</h2>
 			<p>Zombies in different states offer different threat levels. The following chart is a guideline to evaluating these levels.</p>
 		<table>
 			<tr>
-				<th colspan="4">Threat Evaluation Guide</th>
+				<th id="table-name" colspan="4">Threat Evaluation Guide</th>
 			</tr>
 			<tr>
-				<td>Type</td>
-				<td>Threat Level</td>
-				<td>Safety Threshhold</td>
-				<td>Notes</td>
+				<td class="col-name">Type</td>
+				<td class="col-name">Threat Level</td>
+				<td class="col-name">Safety Threshhold</td>
+				<td class="col-name">Notes</td>
 			</tr>
 			<tr>
 				<td>Floating Head</td>
