@@ -31,7 +31,7 @@ table {
 	background-color: #ffffe6;
 	border: solid black 3px;
 	padding: 2px;
-	font-family: "helvetica"
+	font-family: "helvetica";
 	position: relative;
 	margin-left: 58px;
 }
@@ -53,7 +53,7 @@ table * {
 #zombie-pic {
 	display: block;
 	margin: 25px auto 0;
-	width 50%;
+	width: 50%;
 }
 
 #z-p-credit {
@@ -71,7 +71,7 @@ table * {
 
 #nav-section {
 	height: 100px;
-	width: 100px;
+	width: 90px;
 	background-color: gray;
 	border-radius: 15px;
 	position: fixed;
@@ -82,7 +82,7 @@ table * {
 }
 
 #nav-message {
-	width: 62px;
+	width: 65px;
 	padding-left: 10px;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -115,8 +115,9 @@ a:active {
 	color: white;
 }
 
-@mediaonly screen and (max-device-width: 480px) {
-	aside {
-		width: 200px;
+@media print {
+	body {
+		background-image: none;
+		background-color: white;
 	}
 }
