@@ -1,3 +1,16 @@
 body {
-	background-color: grey;
+	background-image:url("https://s-media-cache-ak0.pinimg.com/564x/f2/2f/f2/f22ff22f14776657c1b46b4fc9d9f0ad.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+table * {
+	border: solid black 1px;
+}
+
+table {
+	background-color: #ffffe6;
+	border: solid black 3px;
+	padding: 2px;
 }
