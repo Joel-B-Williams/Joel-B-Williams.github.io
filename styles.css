@@ -102,9 +102,14 @@ footer {
   text-align: center;
 }
 
-a:link, a:visited {
+a:link {
 	color: black;
 	text-decoration:none;
+}
+
+a:visited {
+	color: #005580;
+	text-decoration: none;
 }
 
 a:hover {
