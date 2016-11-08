@@ -67,6 +67,8 @@ table * {
 }
 
 .resource-link {
+	background-color: gray;
+	width: 60px;
 	margin-left: 35px;
 }
 
