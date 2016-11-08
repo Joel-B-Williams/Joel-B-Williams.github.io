@@ -23,6 +23,13 @@ p {
 	width: 30%;
 }
 
+ul {
+	background-color: #ffffe6;
+	border-radius: 15px;
+	margin-left: 45px;
+	width: 15%;
+	padding-right: 10px;
+}
 table {
 	background-color: #ffffe6;
 	border: solid black 3px;
@@ -82,3 +89,8 @@ table * {
 	margin-top: 0px;
 }
 
+footer {
+	background-color: gray;
+	width: 50px;
+  text-align: center;
+}
