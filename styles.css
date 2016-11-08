@@ -115,8 +115,9 @@ a:active {
 	color: white;
 }
 
-@mediaonly screen and (max-device-width: 480px) {
-	aside {
-		width: 200px;
+@media print {
+	body {
+		background-image: none;
+		background-color: white;
 	}
 }
