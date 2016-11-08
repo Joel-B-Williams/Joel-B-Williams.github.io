@@ -6,7 +6,7 @@ body {
 	padding: 0;
 }
 
-h1, h2 {
+h1, h2, p, ul {
 	background-color: #ffffe6;
 	border-radius: 25px;
 	margin-left: 25px;
@@ -15,16 +15,13 @@ h1, h2 {
 }
 
 p {
-	background-color: #ffffe6;
 	border-radius: 15px;
 	margin-left: 35px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-right: 15px;
 	width: 30%;
 }
 
 ul {
-	background-color: #ffffe6;
 	border-radius: 15px;
 	margin-left: 45px;
 	width: 15%;
