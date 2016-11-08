@@ -2,6 +2,8 @@ body {
 	background-image:url("https://s-media-cache-ak0.pinimg.com/564x/f2/2f/f2/f22ff22f14776657c1b46b4fc9d9f0ad.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 h1, h2 {
@@ -56,3 +58,27 @@ table * {
 	width: 150px;
 	text-align: center;
 }
+
+.resource-link {
+	margin-left: 35px;
+}
+
+#nav-section {
+	height: 100px;
+	width: 100px;
+	background-color: gray;
+	border-radius: 15px;
+	position: fixed;
+	margin-left: 95%;
+	margin-bottom: 85%;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#nav-message {
+	width: 62px;
+	padding-left: 10px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
