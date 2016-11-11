@@ -120,13 +120,14 @@ a:active {
 	color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 	#z-p-credit {
 		width: 30%;
 	}
 
 	h1, h2, p, ul {
 		width: 70%;
+		font-size: .9em;
 	}
 	#nav-message {
 		display: block;
@@ -140,6 +141,7 @@ a:active {
 		margin-left: 25px;
 		margin-bottom: 5px;
 		padding-bottom: 0px;
+
 	}
 
 	aside {
@@ -147,5 +149,9 @@ a:active {
 		text-align: left;
 		float: none;
 		margin: auto;
+	}
+
+	a {
+		font-size: 5px;
 	}
 }
