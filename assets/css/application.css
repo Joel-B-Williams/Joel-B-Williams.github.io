@@ -32,6 +32,8 @@ header {
 .body_section p {
 	padding-right: 50px;
 	padding-left: 10px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 .body_section section {
