@@ -13,11 +13,24 @@ header {
 
 }
 
+main {
+	width: 70%;
+	float: left;
+}
+
+.body_section {
+	color: #417382;
+	padding-left: 25px;	
+}
+
+.body_section h3 {
+	border-bottom: solid #417382 1px;
+}
+
 .sidebar {
 	/*height: 500px;*/
 	width: 25%;
 	background: linear-gradient( 45deg, #17363f, #417382 );
-	/*border-left: solid #417380 20px;*/
 	float: right;
 }
 
@@ -29,16 +42,20 @@ header {
 .sidebar_section h3 {
 	font-style: italic;
 	border-bottom: solid #e5eff2 1px;
+	margin-bottom: 0;
+	/*margin-bottom: 3px;*/
 }
 
 .sidebar_section h5 {
 	font-size: 14px;
-	margin-bottom: 3px;
+	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 .sidebar_section p {
 	font-size: 11px;
 	padding-left: 3px;
+	margin-top: 1px;
 }
 
 #header_name {
