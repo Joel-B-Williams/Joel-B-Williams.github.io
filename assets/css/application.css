@@ -1,0 +1,64 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+header {
+	height: 125px;
+	width: 100%;
+	background: linear-gradient( 120deg, #17363f, #417382 );
+
+}
+
+.sidebar {
+	/*height: 500px;*/
+	width: 25%;
+	background: linear-gradient( 45deg, #17363f, #417382 );
+	/*border-left: solid #417380 20px;*/
+	float: right;
+}
+
+.sidebar_section {
+	color: #e6eff2;
+	padding-left: 15px;
+}
+
+.sidebar_section h3 {
+	font-style: italic;
+	border-bottom: solid #e5eff2 1px;
+}
+
+.sidebar_section h5 {
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.sidebar_section p {
+	font-size: 11px;
+	padding-left: 3px;
+}
+
+#header_name {
+	color: #e6eff2;
+	font-size: 3em;
+	padding-left: 115px;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: left;
+	border-bottom: double #e6eff2 3px;
+}
+
+
+#header_tag {
+	color: #e6eff2;
+	font-size: 1.25em;
+	padding-top: 5px;
+	padding-left: 140px;
+	padding-bottom: 25px;
+	clear: left;
+}
+
