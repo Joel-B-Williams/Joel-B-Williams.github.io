@@ -7,17 +7,26 @@ header {
 }
 
 main {
+	color: #17363f;
 	width: 70%;
 	float: left;
 }
 
+
+header {
+	color: #e6eff2;
+}
+
 .body_section {
-	color: #417382;
 	padding-left: 25px;	
 }
 
 .body_section h3 {
 	border-bottom: solid #417382 1px;
+}
+
+.body_section h4{
+	font-style: italic;
 }
 
 .body_section p {
@@ -67,7 +76,6 @@ main {
 }
 
 #header_name {
-	color: #e6eff2;
 	font-size: 3em;
 	padding-left: 115px;
 	padding-top: 25px;
@@ -79,7 +87,6 @@ main {
 
 
 #header_tag {
-	color: #e6eff2;
 	font-size: 1.25em;
 	padding-top: 5px;
 	padding-left: 140px;
