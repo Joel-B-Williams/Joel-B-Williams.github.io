@@ -19,14 +19,33 @@ h1 {
 	padding-top: 5vh;
 	text-align: center;
 	font-style: italic;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 3em;
-	font-family: arial;
+	color: #313133;
+	/*font-family: arial;*/
 }
+
+/* INTRO */
+
+.intro {
+	height: 55vh;
+}
+
+/* EFFECTS AND CURIOUSITIES */
 
 .grey-underline {
 	border-bottom: solid #313133 2px;
 	width: 12vw;
 	margin: auto;
+}
+
+.fade-to-grey {
+	height: 15vh;
+	background: linear-gradient(white, #bfc0c1);
+}
+
+.fade-to-white {
+	height: 15vh;
+	background: linear-gradient(#bfc0c1, white);
 }
 
