@@ -70,7 +70,7 @@ header {
 	vertical-align: top;
 	margin-top: 20vh;
 	margin-left: 6vw;
-	height: 40vh;
+	height: 30vh;
 	width: 40vw;
 	/*border: solid black 1px;*/
 }
@@ -89,6 +89,22 @@ header {
 
 .project-role {
 	font-style: italic;
+}
+
+.more-projects {
+	text-align: center;
+}
+
+/*.more-projects p {
+	display: inline-block;
+}*/
+
+/*.more-projects a {
+}*/
+
+.more-projects img {
+	display: inline-block;
+	width: 2vw;
 }
 
 /* MUFFINS */
@@ -130,7 +146,7 @@ header {
 }
 
 .directions {
-	padding-top: 12vw;
+	padding-top: 17vw;
 }
 
 .directions p {
