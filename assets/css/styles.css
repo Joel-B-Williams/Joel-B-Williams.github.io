@@ -42,6 +42,16 @@ h3 {
 	float: right;
 }
 
+.scrolling {
+	width: 15vw;
+	float: right;
+	/*margin-right: 0;*/
+}
+
+.scrolling img {
+	width: 5vw;
+}
+
 /* HEADER */
 
 header {
@@ -153,6 +163,26 @@ header {
 	margin: 3px;
 }
 
+/* FOOTER */
+
+footer {
+	height: 15vh;
+	background-color: #bfc0c1;
+}
+
+.links {
+	width: 45vw;
+	margin: auto;
+}
+
+.links img {
+	/*display: inline-block;*/
+	width: 4vw;
+	margin-left: 10vw;
+}
+
+
+
 /* EFFECTS AND CURIOUSITIES */
 
 .grey-underline {
@@ -170,4 +200,3 @@ header {
 	height: 15vh;
 	background: linear-gradient(#bfc0c1, white);
 }
-
