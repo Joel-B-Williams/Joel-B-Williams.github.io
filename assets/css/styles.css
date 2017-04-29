@@ -32,6 +32,12 @@ h3 {
 	float: left;
 }
 
+.right-text {
+	width: 30vw;
+	float: right;
+	padding-right: 10vw;
+}
+
 .right-image {
 	float: right;
 }
@@ -62,7 +68,7 @@ header {
 .project {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 10vh;
+	margin-top: 20vh;
 	margin-left: 6vw;
 	height: 40vh;
 	width: 40vw;
@@ -83,6 +89,52 @@ header {
 
 .project-role {
 	font-style: italic;
+}
+
+/* MUFFINS */
+
+.muffins {
+	height: 70vh;
+}
+
+.muffin-recipe {
+	width: 40vw;
+	margin-left: 10vw;
+	margin-top: 10vw;
+	padding: 2%;
+	/*border-radius: 50px;*/
+	/*border-bottom: solid #bfc0c1 1px;*/
+	float: left;
+}
+
+.ingredient-section {
+	text-align: center;
+	font-style: italic;
+}
+
+
+.muffin-recipe th {
+	background: #bfc0c1;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+/* measure amount */
+.muffin-recipe tr td:nth-child(2) {
+	text-align: right;
+}
+
+/* measure type */
+.muffin-recipe tr td:last-child {
+	text-align: center;
+}
+
+.directions {
+	padding-top: 12vw;
+}
+
+.directions p {
+	margin: 3px;
 }
 
 /* EFFECTS AND CURIOUSITIES */
