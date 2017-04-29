@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+
+/* HEADER */
+
+header {
+	background: linear-gradient(#bfc0c1, white);
+  /*background: -webkit-linear-gradient(#bfc0c1, white); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(#bfc0c1, white); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(#bfc0c1, white); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(#bfc0c1, white);*/
+	height: 30vh;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 5vh;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	font-family: arial;
+}
+
+.grey-underline {
+	border-bottom: solid #313133 2px;
+	width: 12vw;
+	margin: auto;
+}
+
