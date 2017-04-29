@@ -200,3 +200,7 @@ footer {
 	height: 15vh;
 	background: linear-gradient(#bfc0c1, white);
 }
+
+span.send-mail {
+	font-style: italic;
+}
