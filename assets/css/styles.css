@@ -4,6 +4,8 @@ body, html {
 	font-family: helvetica;
 }
 
+/*HEADER/NAV BAR*/
+
 header {
 	z-index: 1;
 	min-height: 50px;
@@ -36,12 +38,78 @@ nav a:last-of-type {
 	border-right: none;
 }
 
+/*LANDING SPLASH*/
+
 .splash {
-	background-image: url(../static/images/code.png)
+	background: url("../static/images/code.png") no-repeat top center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
 	padding: 20% 0 0 0;
 	text-align: center;
 	font-size: 3em;
+	color: #cecece;
+	text-shadow: 1px 1px white;
+}
+
+/* DIVIDER SECTION */
+.divider {
+	background: url("../static/images/code.png") no-repeat top center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* SKILLS SECTION */
+.skills {
+	background: #cecece;
+}
+
+/* PROJECTS SECTION*/
+.projects {
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.project-image {
+	width: 30%;
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.project-text {
+	margin: 0 0 0 3%;
+}
+
+.project {
+	display: flex;
+	width: 35%;	
+	margin: 5% 0 0 0;
+}
+
+
+.project img {
+	display: block;
+	margin: 15% auto 0 auto;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 2px 2px 12px #888888;
+	padding: 3% 3% 3% 3%;
+}
+
+.project a {
+}
+
+
+/* MUFFINS!!! */
+.muffins {
+	background: #252a33;
 }
