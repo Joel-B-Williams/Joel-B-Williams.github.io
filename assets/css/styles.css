@@ -1,7 +1,21 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	font-family: helvetica;
+	font-family: jura;
+}
+
+h1 {
+	margin: 0;
+	padding: 25% 0 0 0;
+	text-align: center;
+	font-size: 8em;
+	color: #cecece;
+	text-shadow: 1px 1px white;
+	font-family: the woodlands;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: jura;
 }
 
 /*HEADER/NAV BAR*/
@@ -45,17 +59,8 @@ nav a:last-of-type {
   background-size: cover;
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
 }
 
-h1 {
-	padding: 20% 0 0 0;
-	text-align: center;
-	font-size: 3em;
-	color: #cecece;
-	text-shadow: 1px 1px white;
-}
 
 /* DIVIDER SECTION */
 .divider {
@@ -108,7 +113,6 @@ h1 {
   border-right: 1px solid #252a33;
   border-bottom: 1px solid #252a33;
   box-shadow: 2px 2px #888888;
-  /*border: solid #252a33 2px;*/
 	padding: 3% 3% 3% 3%;
 }
 
