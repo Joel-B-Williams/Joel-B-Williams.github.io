@@ -1,7 +1,7 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	font-family: jura;
+	font-family: josefin slab;
 }
 
 h1 {
@@ -11,11 +11,11 @@ h1 {
 	font-size: 8em;
 	color: #252a33;
 	text-shadow: 1px 1px white;
-	font-family: the woodlands;
+	font-family: satisfy;
 }
 
 h2, h3, h4, h5, h6 {
-	font-family: jura;
+	font-family: quicksand;
 }
 
 /*HEADER/NAV BAR*/
