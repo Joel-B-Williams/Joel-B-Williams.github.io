@@ -14,7 +14,7 @@ h1 {
 	font-style: italic;
 	/*font-weight: bold;*/
 	font-size: 6em;
-	font-family: The Woodlands;
+	font-family: satisfy;
 	float: left;
 }
 
@@ -22,12 +22,12 @@ h2, h3 {
 	text-align: center;
 	font-style: italic;
 	font-size: 2em;
-	font-family: jura;
+	font-family: quicksand;
 }
 
 p {
-	font-family: jura;
 	font-size: 1.25em;
+	font-family: josefin slab;
 }
 
 .nav-box {
