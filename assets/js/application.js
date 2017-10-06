@@ -18,6 +18,6 @@ function smoothScroll(){
       // captures section from smooth-scroll href
       var section = link.match(/#(.*)/)[1];
       var offset = $(`.${section}`).offset().top;
-      $("html, body").animate({ scrollTop: offset });
+      $("html, body").animate({ scrollTop: offset }, 1000);
   });
 };
