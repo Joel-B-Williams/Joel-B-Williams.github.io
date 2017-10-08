@@ -18,6 +18,21 @@ h1 {
 
 h2, h3, h4, h5, h6 {
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.25em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+li {
+	list-style: none;
+	font-size: 1.5em;
 }
 
 /*HEADER/NAV BAR*/
@@ -34,6 +49,7 @@ header {
 a {
 	text-decoration: none;
 	color: white;
+	font-size: 1.5em;
 }
 
 a:hover {
@@ -73,9 +89,25 @@ nav a:last-of-type {
   height: 100%;
   width: 100%;
 }
+
 /* SKILLS SECTION */
 .skills {
 	background: #cecece;
+	display: flex;
+	justify-content: center;
+}
+
+.skill-box{
+	border: solid #252a33 1px;
+	border-radius: 15px;
+	width: 25%;
+	height: 40%;
+	margin: 25% 5% 0 5%;
+	background: white;
+}
+
+.skill-box > *{
+	margin: 10% 0 0 10%;
 }
 
 /* PROJECTS SECTION*/
@@ -86,12 +118,6 @@ nav a:last-of-type {
 	align-content: center;
 	flex-wrap: wrap;
 }
-
-/* .projects {
-	background: white;
-	display: flex;
-	justify-content: space-around;
-} */
 
 .project-image {
 	width: 30%;
