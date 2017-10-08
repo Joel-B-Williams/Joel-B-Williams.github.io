@@ -127,6 +127,8 @@ nav a:last-of-type {
 }
 
 .project img:active {
+	height: 99px;
+	width: 99px;
 	box-shadow: inset 1px 1px #888888;
 	border-top: 1px solid #252a33;
 	border-left: 1px solid #252a33;
