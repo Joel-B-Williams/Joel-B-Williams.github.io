@@ -167,3 +167,28 @@ nav a:last-of-type {
 .muffins {
 	background: #252a33;
 }
+
+/* CONTACT SECTION*/
+.contact {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-button {
+	border-radius: 100px;
+	margin: auto;
+	overflow: hidden;
+	background: white;
+	height: 100px;
+	width: 100px;
+	border: solid white 1px;
+}
+
+.contact-button a {
+	font-size: 0em
+}
+
+.contact-button img {
+	height: 100%; 
+	width: 100%;
+}
